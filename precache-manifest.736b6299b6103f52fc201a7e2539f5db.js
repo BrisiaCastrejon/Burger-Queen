@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/Burger-Queen/static/css/main.cf96f7ab.chunk.css"
   },
   {
-    "revision": "992a9efe252bdde043b37e5396b0bc72",
+    "revision": "92f54900a558f4a0825d19cde1e0dc5d",
     "url": "/Burger-Queen/index.html"
   }
 ];
