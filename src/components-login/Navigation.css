@@ -1,0 +1,24 @@
+body{
+  color: #212121;
+}
+.caja-nav{
+ margin: 10px auto;
+ background-color: #5D4037;
+}
+.botones-panel{
+  height: 60px;
+  width: 200px;
+  background-color: #5D4037;
+}
+.botones{
+  
+  height: 60px;
+  width: 100px;
+  background-color: #5D4037;
+}
+.prueba{
+  color: #FFFFFF;
+}
+.caja-login-nav{
+  background-color: #5D4037;
+}

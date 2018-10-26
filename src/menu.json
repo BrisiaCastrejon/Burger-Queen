@@ -1,0 +1,127 @@
+{ "Menu":
+  [
+    { "Titulo":"Desayuno", 
+      "id":0, 
+      "Oferta":[         { 
+          "id":1,
+          "item":"Café americano",
+          "precio":5
+        },
+        { 
+          "id":2,
+          "item":"Café con leche", 
+          "precio":7
+        },
+        { 
+          "id":3,
+          "item":"Sandwich de jamón y queso", 
+          "precio":10
+        },
+        { 
+          "id":4,
+          "item":"Jugo natural", 
+          "precio":7
+        }
+      ]
+    },
+    { "Titulo":"Comida",
+      "id":1, 
+      "Oferta":[
+        {
+          "id":1,
+          "item":"Hamburguesa de res sencilla", 
+          "precio":10
+        },
+        {
+          "id":2,
+          "item":"Hamburguesa de res doble",
+          "precio":15 
+        },
+        { 
+          "id":3,
+          "item":"Hamburguesa de pollo sencilla",
+          "precio":10
+        },
+        {
+          "id":4,
+          "item":"Hamburguesa de pollo doble", 
+          "precio":15 
+        },
+        { 
+          "id":5,
+          "item":"Hamburguesa de vegetariana sencilla", 
+          "precio":10 
+        },
+        {
+          "id":6,
+          "item":"Hamburguesa de vegetariana doble", 
+          "precio":15 
+        }
+      ]
+    },
+    { "Titulo":"Bebidas",
+      "id":2,
+      "Oferta":[
+        { 
+          "id":1, 
+          "item":"Agua de 500ml", 
+          "precio":5
+        },
+        { 
+          "id":2, 
+          "item":"Agua de 750ml", 
+          "precio":8
+        },
+        { 
+          "id":3, 
+          "item":"Refresco de 500ml", 
+          "precio":7
+        },
+        { 
+          "id":4, 
+          "item":"Refresco de 750ml", 
+          "precio":10
+        },
+        { 
+          "id":5,
+          "item":"Jugo natural sencillo", 
+          "precio":10 
+        },
+        { 
+          "id":6,
+          "item":"Jugo doble", 
+          "precio":15 
+        }    
+      ]
+    },
+    { "Titulo":"Acompañamientos",
+      "id":3,
+      "Oferta":[  
+        {
+          "id":1,
+          "item":"Papas fritas", 
+          "precio":5
+        },
+        {
+          "id":2,
+          "item":"Aros de cebolla", 
+          "precio":5
+        }
+      ]
+    }, 
+    { "Titulo":"Ingredientes extra",
+      "id":4,
+      "Oferta":[
+        {
+          "id":1,
+          "item":"huevo", 
+          "precio":1
+        },
+        { "id":2,
+          "item":"queso", 
+          "precio":1
+        }
+      ]    
+    }
+  ]
+}

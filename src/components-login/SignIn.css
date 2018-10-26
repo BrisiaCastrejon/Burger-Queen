@@ -1,0 +1,10 @@
+.bienvenida{
+  margin: 100px auto;
+}
+.boton-iniciar{
+  height: 60px;
+  width: 400px;
+  background-color: #FF5722;
+  color:#FFFFFF;
+
+}
