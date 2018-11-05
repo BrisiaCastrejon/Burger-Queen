@@ -1,8 +1,7 @@
-.caja-board{
-background-color: bisque;
-}
 
-.enviar {
-  background-color: #FF5722;
-  color: #FFFFFF;
+.Board{
+  background-color: aliceblue;
+  padding: 20px;
+  color: black;
+  margin-top: 10px;
 }

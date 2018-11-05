@@ -1,4 +1,32 @@
-import React, { Component } from 'react';
+import React, {Component} from "react";
+import './Board.css';
+class Note extends Component {
+  constructor(props){
+    super(props);
+    this.noteContent = props.noteContent;
+    this.noteId = props.noteId;
+  }
+  handleRemove (id) {
+    const response = window.confirm('Se eliminará la nota');
+    if (response) {
+      this.props.removeNote(id);
+    }
+    return;
+  }
+  render(){
+    return(
+    <div className='Board'>
+    <span onClick={()=> this.handleRemove(this.noteId)}>X</span>
+      <p>{this.noteContent}</p>
+    </div>
+   )
+  }  
+}
+export default Note;
+
+
+
+/*import React, { Component } from 'react';
 // estilos
 import './Board.css'
 
@@ -35,3 +63,4 @@ render(){
 }
 }
 export default Board;
+*/
